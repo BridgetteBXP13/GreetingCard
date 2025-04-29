@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#622196F3"
+        android:fontFamily="cursive"
+        android:lineSpacingExtra="8sp"
+        android:text="Hello Mindy!\nI didn't know I had such a cool neighbor!"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#FFEB3B"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:text="Hello Mindy!\nI didn't know I had such a cool neighbor!" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#552196F3"
+        android:contentDescription="white house with trees"
+        android:src="@drawable/front_of_a_house_with_many_tree_isolated_on_white_background_free_vector" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:contentDescription="I would love to work with you! Thank you for this opportunity. Your neighbor, Bridgette"
+        android:fontFamily="cursive"
+        android:lineSpacingExtra="8sp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#E7281B1B"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:text="I would love to work with you! Thank you for this opportunity.\nYour neighbor, Bridgette" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="100"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textStyle="bold"
+        tools:text="Tap Here For A Random Fun Fact" />
+
+</LinearLayout>

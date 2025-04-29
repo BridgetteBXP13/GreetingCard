@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Greeting Card</string>
+    <string name="fun_fact_button_name">Tap Here For a Random Fun Fact</string>
+    <string name="fun_fact_one">I love to crochet!</string>
+    <string name="fun_fact_two">I love animals, even the ones most are afraid of.</string>
+    <string name="fun_fact_three">I have a lot of pets. Including a cat and several reptiles.</string>
+    <string name="fun_fact_four">My first programming language I learned was C. I taught myself with an O\'Reilly book and a Raspberry Pi 3!</string>
+    <string name="fun_fact_five">I was the president of the Stitch to Enrich and ReptiClub at UTD.</string>
+    <string name="white_house_with_tree_description">White house with trees.</string>
+    <string name="greeting_message">Hello %1$s! \nI didn\'t know I had such a cool neighbor!</string>
+    <string name="signature_message">I would love to work with you! Thank you for this opportunity.\nYour neighbor, %1$s</string>
+</resources>
