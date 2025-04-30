@@ -161,6 +161,6 @@ fun GreetingApp() {
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background
     ) {
-        GreetingCard("Mindy", "Bridgette")
+        GreetingCard("Ruby", "Bridgette")
     }
 }
